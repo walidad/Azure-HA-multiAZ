@@ -364,7 +364,7 @@
         "global_var_networkVersion": "IPv4",
         "global_var_apiVersion": "2018-06-01",
         "global_var_tier": "Regional",
-        "global_var_sku": "Basic",
+        "global_var_sku": "Standard",
         "global_vnet_name": "[if(equals(parameters('VNETOption'), 'Use existing VNET'), parameters('VNETName'), take(replace(concat(parameters('VNETName'), variables('global_var_appendedString')), ' ', ''), 64))]",
         "global_vnet_resource_group": "[if(equals(parameters('VNETResourceGroup'), ''), variables('global_var_resource_group'), parameters('VNETResourceGroup'))]",
         "global_vnet_option": "[parameters('VNETOption')]",
