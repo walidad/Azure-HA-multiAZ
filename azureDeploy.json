@@ -218,11 +218,11 @@
             "type": "string",
             "defaultValue": "latest",
             "allowedValues": [
-                "latest",
+                "Latest",
                 "10.2.3",
                 "10.0.4",
                 "9.1.0",
-                "9.0.6",
+                "10.1.2",
                 "9.0.4",
                 "9.0.1"
             ],
